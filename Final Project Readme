@@ -6,3 +6,54 @@ Naimish Bizzu
 Final Project
 Dr. Jake Williams
 
+COVID19 Twitter Data Aquisition and Pre-Processing
+Final Project / DSCI511 Data Acquisition and Pre-Processing / 19-20 Spring Quarter
+Johnathan Myers, Sushanth Reddy Sangannagari, Naimish Bizzu, and Hyung Wook Choi
+Table of Contents
+
+Project Scope
+* Background on Team Members
+* Identifying a Dataset
+* Understanding the Target Data and Substantiating its Existence
+* Realism and Understanding of Data Access and Use Limitations
+* Directions, Insights, or Expectations on Target Data Usefulness Limitations
+* Data Aquisition and Pre-Processing
+
+Data Scope and Aquisition
+Pre-Processing for Specific Usages
+1. Project Scope
+Background on Team Members
+
+Johnathan Myers is familiar with Python and the BeautifulSoup package. Additionally, he has developed skills in data management and data cleaning. Individually, he has helped coordinate team efforts towards the project. He would like to develop my skills in using APIs, specifically Twitter APIs, and efficiently scrape data off of websites.
+
+Sushanth Reddy Sangannagari has experience in scraping data from webpages on both static (content-only) and dynamic (UI and AJAX calls) projects. His strong skill set also lies in pulling out the data by making Rest API calls in python. He would like to contribute in gathering and processing both structured and unstructured data from external (scraping, APIs) twitter data sources and prepare it for analyses. He would like to learn the ability to distinguish between quality data and clean data and make effective interpretations from the observed data.
+
+Naimish Bizzu’s skills include python,visualizing the data using Tableau. He is from an electronics and communications background and a beginner at Python, and is slowly learning things. He would like to develop and improve my skills in scraping of data, clean and perform analytics on the data.
+
+Hyung Wook Choi is strong in Twitter API crawling. She is familiar with structured data especially with citation dataset and make it into visualization, especially in network form. She contributed with Twitter data crawling with a developer account and the overall documentation. She would like to develop data acquisition and analysis skill, especially with unstructured data and natural language processing to use it in research.
+
+Identifying a Dataset
+
+Our idea for a project comes from the necessity to have clear, accurate, and timely data surrounding the coronavirus. Many data scientists have accumulated data surrounding the growth in coronavirus cases, and have done an excellent job of updating their models as more information comes. Our project will use real-time Twitter data - specifically Tweets from informed and verified individuals and organizations - to give the user a sense of the current information on the coronavirus. This information may be the latest information from the CDC, updates on the death count and infection rate from COVID-19, health recommendations from public officials, or other pertinent and relevant information on the coronavirus. One way our project will be different from other projects is that we will organize the most recent tweets with a clear, organized form that is easy to interpret for end users. Our data will specifically come from users on Twitter as they generate news on the novel coronavirus. We are specifically using Python to crawl Twitter’s news feed with specific hashtag keywords to collect the most recent posts and information on the coronavirus.
+
+Understanding the Target Data and Substantiating its Existence
+
+Potential users of this dataset may include individuals who want to get the most recent and accurate information about COVID-19 quickly and with ease. Twitter users that use the COVID19 or Coronavirus keywords to discuss recent developments may have key insights into how people can stay safe and what is the major issue among people besides with politics and policies. Understanding people is another key point especially in a pandemic situation, because those kinds of information should be reflected in rapidly-changing policies in crisis to moderate the panics and concerns among people. Additionally, researchers who want to analyze people’s ideas and mentions related to COVID-19 will find this project helpful. Finally, government employees who need information about how people are handling or mentioning a lot in social networks about COVID-19. Potential applications of this project are for research purposes. Researchers can use the dataset to get the bigger picture of what people are most worrying about, which could help to develop further policies and plans. Also, by making a sample platform, it can gather further SNS data in a certain structure for research purposes.
+
+Realism and Understanding of Data Access and Use Limitations
+
+We plan on obtaining a Twitter developer account in order to have access to twitter data. With a Twitter developer account, we plan to crawl the most recent tweets using the COVID19 and CORONAVIRUS as keywords that are mentioned within tweets over the recent one month. From this dataset, we can pull the most important tweets based on the number of retweets and likes each post gets.
+
+Directions, Insights, or Expectations on Target Data Usefulness Limitations
+
+The dataset might not be accurate. We might not be able to filter out un-related datasets that only have hashtags. Images and videos will not be collected.
+
+Information we want to collect:
+
+Tweet content (text)
+Originator of tweet (who tweeted the content)
+The data of tweets (limited to the past one month)
+Number of retweets
+A list of most retweeted tweets
+A list of most common keywords from tweets' text
+File saved as a JSON object
